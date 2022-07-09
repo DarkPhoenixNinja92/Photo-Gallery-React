@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header.js';
-import PhotoList from './components/PhotoList';
+import Header from './components/Header';
+import ImageGrid from './components/ImageGrid';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <PhotoList/>
+      <ImageGrid/>
     </div>
   );
 }
